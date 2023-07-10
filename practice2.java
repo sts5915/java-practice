@@ -63,11 +63,38 @@ public class practice2 {
 		//System.out.println(result);
 		
 		//문제 9
-		int a = 10;
-		double b = 3.5;
-		double c = a*b;
-		System.out.println(a + " multiplied by " + b + " equals " + c);
-		System.out.println(a + " multiplied by " + b + " equals " + (a*b)+".");
+		//int a = 10;
+		//double b = 3.5;
+		//double c = a*b;         따로 변수선언 안해도 된다
+		//System.out.println(a + " multiplied by " + b + " equals " + c + ".");
+		//System.out.println(a + " multiplied by " + b + " equals " + (a*b)+".");
+		
+		
+		// 명시적 형 변환
+		//byte a=10;    //정수
+		//double b = 40.5;   //실수
+		//double c = a+b;    //더하려면 같은 데이터 값으로 만들어야됨
+        //         byte  double
+		//         double         정수에서 실수로 형 변환가능
+		//      = 10 + 40.5
+		//      = 50.5
+		
+		
+		//byte a = 10;    //정수
+		//double b = 40.5;  //실수
+		//int c = a+b;     //더하려면 같은 데이터 값으로 만들어야됨
+		//      byte double
+		//       int  double   에러 발생
+		
+		//명시적 형 변환이란 자동 형 변환이 적용되지 않을 경우 수동으로 형 변환을 하는것
+		// 명시적 형 변환 형식 - (데이터 타입)할당 값
+		// float a = 100.0;
+		// float a = 100.0F;
+		// float a = (float)100.0;
+		// int b = 100.0F;
+		// int b = (int)100.0F; 출력하면 100 으로 출력된다
+		// 상수 값 앞 괄호에 변환하고 싶은 데이터 타입을 작성 (데이터 타입)할당값
+		
 		
 		
 		
