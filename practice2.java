@@ -95,6 +95,72 @@ public class practice2 {
 		// int b = (int)100.0F; 출력하면 100 으로 출력된다
 		// 상수 값 앞 괄호에 변환하고 싶은 데이터 타입을 작성 (데이터 타입)할당값
 		
+		//퀴즈
+		// 명시적 형 변환이란
+		// float a = 300.0; 을 명시적 형 변환으로
+		// float a = (float)300.0;
+		// int a=(int)400.7; 의 출력값은 400
+		
+		// 문제 10
+		//int a = 10;
+		//long b = 20L;
+		//double c = 30.5;
+		//int result = (int)(a+b+c);
+		//System.out.println(result);
+		
+		//일부 상황에서 상수 뒤에 L을 사용하지 않아도 long타입으로 인식하는 경우가 있다
+		// 자바의 기본 정수 타입은 int타입으로 처리된다 그래서 long 타입 표현하기 위해 상수 값 뒤에 L을 붙인다
+		// 하지만 int범위 내에 있을때는 long타입을 사용해도 L을 안붙여도 된다
+		// int 범위에 포함되지 않는 값을 long형으로 사용하고 싶다면 상수 값 뒤에 L을 붙여야한다
+		// 그러나 코드의 가독성과 명확성을 위해서는 항상 L을 명시하는 것이 좋다
+		
+		//문제 11
+		//int num1 = 10;
+		//int num2 = 3;
+		//double result = (double)(num1/num2);
+		//System.out.println(result);
+		
+		//문제12
+		//int width =10;
+		//int height = 5;
+		//int area = width*height; //  사각형의 넓이는 정수라고 했으므로 //이 과정을 꼭 거치는것이 좋다
+		//double result = (double)(area); //출력값은 실수이므로 변환해줘야 한다
+		//System.out.println(result);
+		
+		// 연산자
+		// 문자와 문자는 +연산자를 사용하지 못한다
+		// 에러 발생 자바의 문법적인 규칙때문이다
+		
+		//int i =3; 
+		//i++;    ++ 증가 연산자로 항의 값을 1 증가시킨다  --는 감소 연산자로 항의 값을 1 감소 시킨다
+		//System.out.println(i);
+		//++i;
+		//System.out.println(i);
+		//System.out.println(++i);
+		//System.out.println(i++);
+		//System.out.println(i);
+		
+		//단항 연산자
+		// 논리 부정 연산자 !
+		// 피연산자가 true 값이면 false값 출력
+		// 피연산자가 false 값이면 true 값 출력
+		
+		//boolean ab = true;
+		//System.out.println(ab);
+		
+		//ab = !ab;
+		//System.out.println(ab);
+		
+		//비트 반전 연산자 ~
+		//비트값을 반전시킨다 ( 1 - 0 , 0 - 1)
+		
+		//퀴즈
+		// /나누기 % 나머지
+		// 문자열과 문자열
+		// 연산자는 형 변환이 가능하다
+		// 1
+		// 논리 부정
+		
 		
 		
 		
