@@ -161,8 +161,94 @@ public class practice2 {
 		// 1
 		// 논리 부정
 		
+		// 대입 연산자
+		// 변수의 값에 대입하기 위해 사용하는 연산자
+		// a += 3 은 a = a +3과 같은데 이것은 기능적으로 동일한 결과를 가져오지만 좀더 간결하고 짧은 표현을 제공한다
+		// 이러한 축약형 대입 연산자들은 코드를 더 읽기 쉽고 간결하게 만들어준다 
+		// 특히 반복적인 작업이나 변수를 여러번 사용하는 경우 유용하다
+		
+		// 관계연산자(비교연사나)
+		// 주어진 값들이 같은지 다른지 큰지 작은지 구분
+		// 비교연산자의 결과는 true, false 중 하나이다
+		// 조항 == 우항 좌항가 우항을 비교하여 같은지
+		// = 대입연산자 == 비교연산자 의미가 다르므로 주의하자
+		// == 같다 != 같지 않다 <,> 크다 작다 <=,>= 크거나 같다, 작거나 같다
+		
+		// 퀴즈
+		//System.out.println(1 == 4);
+		//System.out.println(1 != 4);
+		//System.out.println(100 > 200);
+		//System.out.println(200 >= 200);
+		
+		// 논리 연산자
+		// &&(and) 좌항&&우항 좌항과 우항의 값이 모두 참일때 참이 된다 하나라도 거짓이면 거짓이 된다
+		// || (or) 좌항||우항 좌항과 우항의 값 중 하나라도 참이면 전체가 참이 된다
+		
+		// 퀴즈
+		// && and || or
+		// 참
+		// 참
+		
+		// 비트연산자
+		// & 두 비트 비교해서 둘다 1일때만 1 출력
+		// | 두 비트 비교해서 하나라도 1이면 1 출력
+		// ^(xor) 두 비트가 서로 다르면 1 출력
+		
+		// 시프트 연산자
+		// 많이 사용되지는 않는다
+		// 정수 데이터의 비트를 왼쪽 또는 오른쪽으로 이동시키는 연산자이다
+		// x << y 정수x의 각 비트를 y만큼 왼쪽으로 이동시킨다
+		// x >> y 정수 x의 각 비트를 y만큼 오른쪽으로 이동시킨다
+		
+		// 삼항 연산자
+		// 피연산자를 3개 가지는 연산자이다
+		// 조건식 ? 반환값 1 : 반환값 :2
+		// 조건식이 참이면 반환값 1
+		// 조건식이 거짓이면 반환값 2
+		
+		//문제 13
+		//int x = 10;
+		//double y = 3.5;
+		//double convertedX = (double)x;
+		//int convertedY = (int)y;
+		//double sum = convertedX + convertedY;
+		//double difference = convertedX - convertedY;
+		//System.out.println("합: " + sum);
+		//System.out.println("차: " + difference);
+		
+		//int z =5;
+		//double w = 2.5;
+		//double convertedZ = (double)z;
+		//int convertedW = (int)w;
+		//double product = convertedZ * convertedW;
+		//double division = convertedZ / convertedW;
+		//System.out.println("곱: "+ product);
+		//System.out.println("나누기: " + division);
+		
+		//문제 14
+		//int a = 5;
+		//int b = 10;
+		
+		//boolean result1 = (a==b);
+		//System.out.println(result1);
+		//boolean result2 = (a>b);
+		//System.out.println(result2);
+		//boolean result3 = ( a<=b);
+		//System.out.println(result3);
+		//boolean flag1 = true;
+		//boolean flag2 = false;
+		
+		//boolean result4 = ( flag1 != flag2);
+		//System.out.println(result4);
 		
 		
+		//과제 오늘 한 수업 내용정리
+		//a4에 정리
+		//다음시간에 제출
+		//형식 좌측 상단에 날짜와 이름 작성
+		//오늘 수업때 푼 문제 풀이 정리
+		//a4
+		//형식 좌측 상단에 날짜와 이름 작성
 		
 	}
 
