@@ -186,24 +186,39 @@ public class practice3 {
 		//System.out.println("평균: "+avg);
 		
 		// 문제27
-		int a=5;
-		int b=10;
-		boolean result1=(a==b);
-		System.out.println(result1);
-		boolean result2=(a>b);
-		System.out.println(result2);
-		boolean result3=(a<=b);
-		System.out.println(result3);
-		boolean flag1=true;
-		boolean flag2=false;
-		boolean result4=(flag1!=flag2);
-		System.out.println(result4);
+		//int a=5;
+		//int b=10;
+		//boolean result1=(a==b);
+		//System.out.println(result1);
+		//boolean result2=(a>b);
+		//System.out.println(result2);
+		//boolean result3=(a<=b);
+		//System.out.println(result3);
+		//boolean flag1=true;
+		//boolean flag2=false;
+		//boolean result4=(flag1!=flag2);
+		//System.out.println(result4);
 		
 		// 문제28
+		int numA=20;
+		int lvA = 35;
+		int numB = 15;
+		int lvB = 42;
+		int pA = numA * lvA;
+		int pB = numB * lvB;
+		double result = (double)pA/pB;
+		System.out.println("팀A의 전투력은 "+pA+"입니다.");
+		System.out.println("팀B의 전투력은 "+pB+"입니다.");
+		System.out.println("팀A가 팀B보다 "+result+"배 더 강합니다.");
 		
-		
-		
-		
+		// 문제29
+		int num=10;
+		boolean result1=(10<num&&num<20);
+		System.out.println(result1);
+		boolean result2=(num<5||num>30);
+		System.out.println(result2);
+		boolean result3=(15<=num&&num<=25);
+		System.out.println(result3);
 	}
 
 }
