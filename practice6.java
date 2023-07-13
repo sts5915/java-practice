@@ -84,35 +84,35 @@ public class practice6 {
 		 */
 		
 		// 문제2
-		Scanner a = new Scanner(System.in);
-		System.out.println("입력(1~7)");
-		int num = a.nextInt();
-		switch(num) {
-		case 1:
-			System.out.println("일요일");
-			break;
-		case 2:
-			System.out.println("월요일");
-			break;
-		case 3:
-			System.out.println("화요일");
-			break;
-		case 4:
-			System.out.println("수요일");
-			break;
-		case 5:
-			System.out.println("목요일");
-			break;
-		case 6:
-			System.out.println("금요일");
-			break;
-		case 7:
-			System.out.println("토요일");
-			break;
-		default:
-			System.out.println("default");
-			break;
-		}
+//		Scanner a = new Scanner(System.in);
+//		System.out.println("입력(1~7)");
+//		int num = a.nextInt();
+//		switch(num) {
+//		case 1:
+//			System.out.println("일요일");
+//			break;
+//		case 2:
+//			System.out.println("월요일");
+//			break;
+//		case 3:
+//			System.out.println("화요일");
+//			break;
+//		case 4:
+//			System.out.println("수요일");
+//			break;
+//		case 5:
+//			System.out.println("목요일");
+//			break;
+//		case 6:
+//			System.out.println("금요일");
+//			break;
+//		case 7:
+//			System.out.println("토요일");
+//			break;
+//		default:
+//			System.out.println("default");
+//			break;
+//		}
 		
 		// 문제 3
 //		int x = 50;
@@ -121,11 +121,36 @@ public class practice6 {
 //			System.out.println("x는 y보다 작습니다.");
 //		}
 		
-		
-		
-		
-		
-		
+		// 문제4
+//		Scanner num= new Scanner(System.in);
+//			System.out.println("입력");
+//		int a=num.nextInt();
+//		int b=num.nextInt();
+//		int c=num.nextInt();
+//		if(a>b&&a>c) {
+//			System.out.println("가장 큰 수:"+a);
+//		} else if(b>a&&b>c) {
+//			System.out.println("가장 큰 수:"+b);
+//		} else if(c>a&&c>b) {
+//			System.out.println("가장 큰 수:"+c);
+//		}
+		// 조금 더 정확한 풀이
+//		Scanner scanner = new Scanner(System.in);  
+//		System.out.println("3개의 정수를 입력하세요: ");
+//		int num1 = scanner.nextInt();
+//		int num2 = scanner.nextInt();
+//		int num3 = scanner.nextInt();
+//		
+//		int max = num1;              // 코드를 처음 실행할때 아직 가장 큰 수를 판단하지 않았으므로 초기값으로 num1을 할당한다 그후에 if문을 사용하여
+//								     // num2와 num3을 max와 비교하고 만약 더 큰수가 나오면 max에 해당값을 할당한다.
+//		if(num2 > max) {			 // 따라서 
+//			max=num2;
+//		}
+//		if(num3>max) {
+//			max = num3;
+//		}
+//		System.out.println("가장 큰 수: "+max);
+				
 		
 		
 		
