@@ -41,6 +41,7 @@ public class practice8 {
 				System.out.println(H+" "+M);	
 				}
 		}
+		
 	}
 
 }
