@@ -34,7 +34,17 @@ public class practice9 {
 //	    float 변수이름 = Scanner변수이름.nextFloat();
 //		Scanner을 이용해서 문자열으 입력받고 싶으면 어떤 메소드를 사용하면 되는가?
 //		String 변수이름 = Scanner변수이름.next();
-		
+//		if문은 조건문의 무엇입니까?
+//		시작
+//		if뒤의 괄호에는 어떤 값만 들어올 수 있는가?
+//		true값 false값
+//		if(true) {
+//			System.out.println(1);
+//			System.out.println(2);
+//			System.out.println(3);
+//			System.out.println(4);
+//		}
+//		System.out.println(5);
 	}
 
 }
