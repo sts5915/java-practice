@@ -65,7 +65,7 @@ public class practice10 {
 //		while(i<10) {
 //			System.out.println("Java Coding");
 //			i++;
-//		}
+//		} 
 //		
 		
 //		int i=0;
@@ -75,8 +75,60 @@ public class practice10 {
 //		}
 		
 		// 반복 작업을 중간에 중단시키고 싶다면 break를 사용하면 된다
+		// if문 뒤 괄호에 i==5가 들어왔기 때문에 i가 5가 되는 순간 if문 중괄호의 break문이 실행되러 반복문이 완전히 종료된다.
 		
+		// continue
+		// continue 구문에 해당되는 부분만 실행이 안될뿐이지 반복문 자체를 중단하는 것이 아니기 때문에 5를 제외한 다음 숫자부터는 다시 반복하여 실행된다.
+		
+		// 반복문의 중첩
+//		for (int i=0; i<10; i++) {
+//			for(int j=0; j<10; j++) {
+//				System.out.println(i+""+j);
+//			}
+//		}
+		
+		// 퀴즈
+		// error
+		// coding lesson 0~4
+		// coding lesson 0~1
+		// coding lesson 0 1 3 4 
+		
+		// 문제 1
+//		Scanner sc = new Scanner(System.in);
+//		System.out.println("n을 입력하세요: ");
+//		int n= sc.nextInt();
+//		for(int i=1; i<10; i++) {
+//			if(i %3==0) {
+//				System.out.println(i);
+//			}
+//		}
+		
+		// 문제 2
+//		Scanner sc = new Scanner(System.in);
+//		System.out.println("n을 입력하세요: ");
+//		int n = sc.nextInt();
+//		for(int i=n ; i>=1; i--) {
+//			System.out.println(i);
+//		}
 	
+		// 문제 3
+//		Scanner sc = new Scanner(System.in);   // prinln은 출력 후 줄바꿈을 포함하기 때문에 각각의 별표를 한줄씩 출력하게 된다
+//		System.out.println("n을 입력하세요: ");	   // 그러므로 print를 사용해야 한다
+//		int num=sc.nextInt();				   // print는 줄바꿈 없이 출력을 수행한다
+//		for(int i=1; i<=num; i++) {			   // 마지막 println을 사용하지 않으면 줄바꿈이 안되므로 아래처럼 결과값이 출력된다
+//			for(int j=0; j<i; j++) {		   // **********
+//				System.out.print("*");		   // num=3
+//			}System.out.println();			   // i = 1 - j=0 *
+//		}								       // i = 2 - j=0
+										       //         j=1 **
+											   // i = 3 - j=0
+											   //         j=1
+											   //         j=2 ***
+		
+		
+			
+		
+		
 		
 		
 	}
