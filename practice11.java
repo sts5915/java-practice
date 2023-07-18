@@ -52,6 +52,40 @@ public class practice11 {
 //			}
 //		System.out.println();
 //		}
+		
+		// 문제 7
+//		Scanner sc = new Scanner(System.in);
+//		System.out.println("테스트 케이스의 갯수를 입력하세요: ");
+//		int c = sc.nextInt();
+//		for(int i=1; i<=c; i++) {
+//			int a = sc.nextInt();
+//			int b = sc.nextInt();
+//			System.out.println("Case #"+i+":"+a+"+"+b+"="+(a+b));
+//		}
+		
+		// 문제 8
+//		Scanner sc = new Scanner(System.in);
+//		System.out.println("n을 입력하세요(1<=n<=100): ");
+//		int n = sc.nextInt();
+//		for(int i=1; i<=n; i++) {
+//			for(int j = 1; j<=(n-i); j++) {
+//				System.out.print(" ");
+//			}
+//			for(int k = 1; k<=i; k++) {
+//				System.out.print("*");
+//			}
+//		System.out.println();
+//		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 	}
 
 }
