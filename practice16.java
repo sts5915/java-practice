@@ -423,6 +423,42 @@ public class practice16 {
 //		즉 은닉화가 되었다
 //		이때 학교 클래스에서 학생의 정보를 호출하려고 하면 평소의 방법으로는 접근이 되지 않는다
 //		예제를 보자
+		
+//		public class student{
+//			private String name;
+//			private int id;
+//			private int age;
+//			
+//			public void setName(String name) {
+//				this.name = name;
+//			}
+//			public void setId(int id) {
+//				this.id = id;
+//			}
+//			public void setAge(int age) {
+//				this.age = age;
+//			}
+//			public void getName() {
+//				return name;
+//			}
+//			public void getId() {
+//				return id;
+//			}
+//			public void getAge() {
+//				return age;
+//			}
+//		}
+		
+//		public static void main(String[] args) {
+//			student stu = new student();
+//			stu.SetName("홍길동");
+//			stu.SetId(2017313297);
+//			stu.SetAge(20);
+//			
+//			System.out.println("이름:"+stu.getName());
+//			System.out.println("학번:"+stu.getId());
+//			System.out.println("나이:"+stu.getAge());
+//		}
 //		
 //		school, student 서로 다른 2개의 클래스가 있다.
 //		
@@ -454,6 +490,25 @@ public class practice16 {
 		
 		// 코드 입력하기
 //		메소드 swap은 두개의 변수의 값을 서로 교환하는 기능을 수행하는 메소드이다
+		
+//		public class Test{
+//			public static void main(String[] args) {
+//				int num1 = 10, num2=20;
+//				
+//				System.out.println("num1 = "+num1);
+//				System.out.println("num2 = "+num2);
+//				swap(num1,num2);
+//				System.out.println("num1 = "+num1);
+//				System.out.println("num2 = "+num2);
+//			}
+//			
+//			static void swap(int num1, int num2) {
+//				int temp;
+//				temp = num1;
+//				num1 = num2;
+//				num2 = temp;
+//			}
+//		}
 //		
 //		메소드 swap을 사용했음에도 불구하고 num1,2값은 변화가 없다
 //		
@@ -468,7 +523,34 @@ public class practice16 {
 //		
 //		메소드 인자로 객체에 대한 레퍼런스가 전달되는 경우 객체가 통으로 전달되는 것이 아니라 레퍼런스 값만 복사되어 전달된다
 //		
-//		이런 경우 커스텀 클래스를 사용한다
+//		이런 경우 커스텀 클래스를 사용한다 
+		
+//		public class Test{
+//			public static void main(String[] args) {
+//				NumberClass num1 = new NumberClass(10);
+//				NumberClass num2 = new NumberClass(20);
+//				
+//				System.out.println("num1 = "+num1);
+//				System.out.println("num2 = "+num2);
+//				swap(num1,num2);
+//				System.out.println("num1 = "+num1);
+//				System.out.println("num2 = "+num2);
+//			}
+//			
+//			static void swap(NumberClass num1, NumberClass num2) {
+//				int temp;
+//				temp = num1.num;
+//				num1.num = num2.num;
+//				num2.num = temp;
+//			}
+//			class NumberClass{
+//				int num;
+//				
+//				NumberClass(int num){
+//					this.num = num;
+//				}
+//			}
+//		}
 //		
 //		위 코드에서는 참조값을 직접 바꾼것이 아니라 객체의 참조값을 통해 그 객체의 멤버변수에 접근해 값을 바꾼것이다
 //		
